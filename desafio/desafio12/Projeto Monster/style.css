@@ -56,6 +56,7 @@ section {
     line-height: 1.5em;
     padding-left: 25px;
     font-size: 1em;
+    background-size: cover;
 }
 
 section.sinopse {
@@ -87,13 +88,12 @@ section.imagem > p {
 section#img01 {
     background-image: url(imagens/tenma-m.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 section#img02 {
     background-image: url(imagens/johan-m.jpg);
-    background-size: cover;
-   
+      
 }
 
 section#img03 {
