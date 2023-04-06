@@ -2,14 +2,12 @@
 
 @font-face {
     font-family: fty ;
-    src: url(fontes/fty\ skradjhuwn\ ncv\ 1.ttf);
-
+    src: url(fontes/fty\ skradjhuwn\ ncv\ 1.ttf) format(truetype);
 }
 
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: fty, arial, sans-serif;
-    --fonte3: Helvetica, sans-serif;
 }
 
 
@@ -57,7 +55,7 @@ section {
     padding-bottom: 10vh;
     line-height: 1.5em;
     padding-left: 25px;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 section.sinopse {
@@ -74,12 +72,33 @@ section.normal {
 section.imagem {
     background-color: rgba(0, 0, 0, 0.527);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.87);
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.329);
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    font-size: 1.5em;
+}
+
+section#img01 {
+    background-image: url(imagens/tenma-m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url(imagens/johan-m.jpg);
+    background-size: cover;
+   
+}
+
+section#img03 {
+    background-color: black;
+    text-align: center;
 }
 
 footer {
