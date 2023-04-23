@@ -1,5 +1,5 @@
 # html-css
- Curso html5 e css3
+ <a href="https://github.com/adrianostesse/html-css/tree/main/exercicios"> Curso html5 e css3
 
 Gerenciando Meus Repositorios
 
