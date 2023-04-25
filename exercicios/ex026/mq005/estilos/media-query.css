@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    .material-icons {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+    nav > ul > li {
+        display: inline-block;
+    }
+
+    nav > ul > li > a {
+        padding: 10px 20px;
+    }
+
+    main {
+        width: 768px;
+    }
+}
